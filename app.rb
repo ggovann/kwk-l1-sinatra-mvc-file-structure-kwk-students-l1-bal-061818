@@ -16,9 +16,6 @@ class App < Sinatra::Base
    get '/say/:number/:phrase' do
      @phrase = params[:phrase]
      @number = params[:number].to_i
-     
-     
-     
      @number.times do
        
      
@@ -44,5 +41,6 @@ get '/:operation/:number1/:number2'
       answer = number1/number2
   else
   puts "unable to process"
+    end
   end
 end
