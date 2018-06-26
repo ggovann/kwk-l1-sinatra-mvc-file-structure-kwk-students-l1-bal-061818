@@ -38,5 +38,5 @@ class App < Sinatra::Base
           else
           puts "unable to process"
           end
-      end
+    end
 end
