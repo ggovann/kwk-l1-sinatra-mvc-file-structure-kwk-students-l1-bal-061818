@@ -1,4 +1,4 @@
-require_relative 'config/environment'
+requir []
 
 class App < Sinatra::Base
  
